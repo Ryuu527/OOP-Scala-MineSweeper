@@ -1,0 +1,144 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\SYSTEM~1\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\SYSTEM~1\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.1 (Oracle Corporation Java 1.8.0_361)
+[debug]       Load.loadUnit: plugins took 69.9568ms
+[debug]       Load.loadUnit: defsScala took 0.2234ms
+[debug] [Loading] Scanning directory C:\Users\System Manager\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\System Manager\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.0445 ms
+[debug]           Load.resolveProject(global-plugins) took 113.3827ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\System Manager\.sbt\1.0\plugins, plugins: List(<none>))) took 157.6167ms
+[debug] [Loading] Done in C:\Users\System Manager\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 172.3018ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.1842ms
+[debug]     Load.loadUnit(file:/C:/Users/System%20Manager/.sbt/1.0/plugins/, ...) took 248.8739ms
+[debug]   Load.apply: load took 356.0793ms
+[debug]   Load.apply: resolveProjects took 4.8348ms
+[debug]   Load.apply: finalTransforms took 64.8661ms
+[debug]   Load.apply: config.delegates took 5.8974ms
+[debug]   Load.apply: Def.make(settings)... took 259.333ms
+[debug]   Load.apply: structureIndex took 73.4221ms
+[debug]   Load.apply: mkStreams took 1.1455ms
+[info] loading global plugins from C:\Users\System Manager\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 1669.4867ms
+[debug]           Load.loadUnit: plugins took 41.664ms
+[debug]           Load.loadUnit: defsScala took 0.0039ms
+[debug] [Loading] Scanning directory C:\Users\System Manager\Dropbox\PC\Desktop\Minesweeper OOP\project
+[debug]             Load.loadUnit: mkEval took 7.0466ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\System Manager\Dropbox\PC\Desktop\Minesweeper OOP\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.6923 ms
+[info] loading settings for project minesweeper-oop-build from idea.sbt ...
+[debug]               Load.resolveProject(minesweeper-oop-build) took 7.9343ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id minesweeper-oop-build, base: C:\Users\System Manager\Dropbox\PC\Desktop\Minesweeper OOP\project, plugins: List(<none>))) took 10.3998ms
+[debug] [Loading] Done in C:\Users\System Manager\Dropbox\PC\Desktop\Minesweeper OOP\project, returning: (minesweeper-oop-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 143.6753ms
+[debug]           Load.loadUnit: cleanEvalClasses took 3.975ms
+[debug]         Load.loadUnit(file:/C:/Users/System%20Manager/Dropbox/PC/Desktop/Minesweeper%20OOP/project/, ...) took 190.4389ms
+[debug]       Load.apply: load took 191.9128ms
+[debug]       Load.apply: resolveProjects took 0.3579ms
+[debug]       Load.apply: finalTransforms took 6.0698ms
+[debug]       Load.apply: config.delegates took 0.4152ms
+[debug]       Load.apply: Def.make(settings)... took 55.6362ms
+[debug]       Load.apply: structureIndex took 36.0535ms
+[debug]       Load.apply: mkStreams took 0.0041ms
+[info] loading project definition from C:\Users\System Manager\Dropbox\PC\Desktop\Minesweeper OOP\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 2627.4725ms
+[debug]     Load.loadUnit: defsScala took 0.0026ms
+[debug] [Loading] Scanning directory C:\Users\System Manager\Dropbox\PC\Desktop\Minesweeper OOP
+[debug]       Load.loadUnit: mkEval took 0.1935ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\System Manager\Dropbox\PC\Desktop\Minesweeper OOP, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.3577 ms
+[info] loading settings for project minesweeper-oop from build.sbt ...
+[debug]         Load.resolveProject(minesweeper-oop) took 23.0037ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id minesweeper-oop, base: C:\Users\System Manager\Dropbox\PC\Desktop\Minesweeper OOP, plugins: List(<none>))) took 26.3743ms
+[debug] [Loading] Done in C:\Users\System Manager\Dropbox\PC\Desktop\Minesweeper OOP, returning: (minesweeper-oop)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2536.4482ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.9539ms
+[debug]   Load.loadUnit(file:/C:/Users/System%20Manager/Dropbox/PC/Desktop/Minesweeper%20OOP/, ...) took 5174.4744ms
+[debug] Load.apply: load took 5176.1069ms
+[debug] Load.apply: resolveProjects took 0.0976ms
+[debug] Load.apply: finalTransforms took 18.4785ms
+[debug] Load.apply: config.delegates took 0.3416ms
+[debug] Load.apply: Def.make(settings)... took 124.9848ms
+[debug] Load.apply: structureIndex took 12.7283ms
+[debug] Load.apply: mkStreams took 0.0036ms
+[info] set current project to FinalScala (in build file:/C:/Users/System%20Manager/Dropbox/PC/Desktop/Minesweeper%20OOP/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 52543 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 52543, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to FinalScala (in build file:/C:/Users/System%20Manager/Dropbox/PC/Desktop/Minesweeper%20OOP/)
+[debug] > Exec(idea-shell, None, None)

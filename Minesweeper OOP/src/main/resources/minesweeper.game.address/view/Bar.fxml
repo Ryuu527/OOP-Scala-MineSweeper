@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="702.0" prefWidth="500.0" style="-fx-background-image: url('minesweeper.game.address/images/layout.jpg');-fx-background-size: cover; -fx-background-repeat: no-repeat;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="minesweeper.game.address.view.BarController">
+    <top>
+        <MenuBar prefHeight="23.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+            <menus>
+                <Menu text="_Game">
+                    <items>
+                        <MenuItem onAction="#handleNew" text="_New Game">
+                            <accelerator>
+                                <KeyCodeCombination alt="DOWN" code="N" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                            </accelerator></MenuItem>
+                        <MenuItem onAction="#handleMenu" text="_Main Menu">
+                            <accelerator>
+                                <KeyCodeCombination alt="DOWN" code="M" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                            </accelerator>
+                        </MenuItem>
+                        <MenuItem onAction="#handleExit" text="_Quit Game">
+                            <accelerator>
+                                <KeyCodeCombination alt="DOWN" code="Q" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                            </accelerator>
+                        </MenuItem>
+                    </items>
+               <accelerator>
+                  <KeyCodeCombination alt="UP" code="G" control="UP" meta="UP" shift="UP" shortcut="ANY" />
+               </accelerator>
+                </Menu>
+                <Menu text="_Help">
+                    <items>
+                        <MenuItem onAction="#handleAbout" text="_About">
+                            <accelerator>
+                                <KeyCodeCombination alt="DOWN" code="A" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                            </accelerator></MenuItem>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+   <rotationAxis>
+      <Point3D />
+   </rotationAxis>
+</BorderPane>
